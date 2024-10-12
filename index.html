@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LiveStock Hub</title>
+	
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="fa/css/all.css">
+		<link rel="shortcut icon" href="favicon-96x96.png" >
+		<style type="text/css">
+			body{
+				background-color: #FAFFD8;
+			}
+
+			.mar{
+				margin: 10px;
+				color: green !important;
+				font-size: 25px;
+
+			}
+			.colo{
+				background-color: #ECFFB0 !important;
+				height: 100px ;
+			}
+			.liq{
+				background-color: #ECFFB0 !important;
+			}
+			.bab, .babi{
+				background-color: #ECFFB0 !important;
+				color: green;
+				border: 1px solid green !important;
+			}
+			.bab li a ,.babi{
+				color: green;
+			}
+			.bab li a:hover{
+				background-color: green !important;
+				color: #FAFFD8 !important;
+			}
+			.babi:hover{
+				background-color: green !important;
+				color: #FAFFD8 !important;
+			}
+
+			.im{
+				height: 600px;
+			}
+			.green{
+				color: green;
+			}
+			.imag{
+				width: 100%;
+				margin-top: 15px;
+				height: 300px;
+			}
+			.ima{
+				width: 100%;
+				height: inherit;
+				margin: 10px 0px;
+				
+			}
+			.babib{
+				background-color: rgba(0, 255, 0, 0.7);
+				color: #FAFFD8;
+				margin-top: -20px;
+				margin-left: 100px;
+				width: 50%;
+			}
+			.babib:hover{
+				background-color: green;
+				border: 1px solid green;
+				color: #FAFFD8;
+			}
+			.clo{
+				background-color: #ECFFB0;
+				height: 100px;
+			}
+			.hed{
+				background-color: #ECFFB0 !important;
+				color: green !important;
+			}
+			.bom{
+				background-color: #ECFFB0;
+			}
+			.bod{
+				background-color: #FAFFD8;
+			}
+			.logo{
+				text-align: center;
+				font-size: 50px;
+				font-weight: 900;
+				font-family: playfair, Baskerville, Gotham,  Palatino, "Times New Roman";
+			}
+			.ac{
+				background-color: rgba(0, 255, 0, 0.2) !important;
+			}
+		</style>
+</head>
+<body>
+	<div class="container-fluid">
+
+		<div class="row ja" id="up">
+			<div class="col-md-12">
+				<h1 class="logo" style="color: green;"> <span>TUN</span>
+					<b class="coloo" style="color: #54577C;">FIELD</b> LIVESTOCK <span style="color: #54577C;">HUB</span></h1>
+			</div>
+		</div>
+
+				<div class="row">
+					<div class="col">
+						<nav class="navbar navbar-expand-lg bg-body-tertiary colo h-100">
+							<div class="container-fluid  sticky-top">
+							  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							  </button>
+							  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								  <li class="nav-item">
+									<a class="nav-link active mar" aria-current="page" href="#">Home</a>
+								  </li>
+						  
+								  <li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle mar" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									  Services
+									</a>
+									<ul class="dropdown-menu bab">
+									  <li><a class="dropdown-item" href="feed_and_nutrition.html">Feed and Nutrition</a></li>
+									  <li><a class="dropdown-item" href="#">Equipment and Tools</a></li>
+									  <li><a class="dropdown-item" href="#">Veterinarian</a></li>
+									  <li><a class="dropdown-item" href="#">Breeding Stock and Seed Stock</a></li>
+									</ul>
+								  </li>
+						  
+									 <li class="nav-item">
+									<a class="nav-link active mar" aria-current="page" href="#">About</a>
+								  </li>
+								  <li class="nav-item">
+									<a class="nav-link active mar" aria-current="page" href="#">Contact</a>
+								  </li>
+								  <li class="nav-item dropdown">
+									  <a class="nav-link dropdown-toggle mar" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Profile
+									  </a>
+									  <ul class="dropdown-menu bab">
+										<li><a class="dropdown-item" href="farmer.html">Farmer's Profile</a></li>
+										<li><a class="dropdown-item" href="buyer.html">Buyer's profile</a></li>
+									  </ul>
+									</li>
+								</ul>
+								<form class="d-flex" role="search">
+								  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+								  <button class="btn btn-outline-success me-5" type="submit">Search</button>
+								</form>
+							  </div>
+							</div>
+						  </nav>						
+					</div>
+				</div>
+
+			
+
+
+
+		<div class="row">
+			<div class="col-md-12 ">
+				
+
+				<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 4"></button>
+  
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="chick4.jpg" class="d-block w-100 im" alt="..." >
+    </div>
+    <div class="carousel-item">
+      <img src="r1.jpg" class="d-block w-100 im" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="c1.jpg" class="d-block w-100 im" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+			</div>
+		</div>
+
+			<div class="row clo mt-3">
+				<div class="col-md-12">
+					<h2 class="text-center green mt-3"> What We Breed</h2>
+				</div>
+			</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card mx-auto mt-5 mb-5" >
+  <img src="c1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cow</h5>
+    <p class="card-text">At Tunfield Breed Livestock, we raise resilient, high-quality cattle, bred for strong genetics and premium meat production, while prioritizing their well-being in sustainable environments.</p> 
+    <a href="#" class="btn btn-primary babi">Read More <i class="fa-solid fa-arrow-right"></i> </a>
+  </div>
+</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card mx-auto mt-5 mb-5" >
+  <img src="t1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Turkey</h5>
+    <p class="card-text">At Tunfield Breed Livestock, we raise healthy, robust turkeys known for their superior growth rates and premium-quality meat. Our turkeys are carefully bred  in sustainable environments.</p>
+    <a href="#" class="btn btn-primary babi">Read More <i class="fa-solid fa-arrow-right"></i> </a>
+  </div>
+</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card mx-auto mt-5 mb-5" >
+  <img src="r1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Ram</h5>
+    <p class="card-text">
+        At Tunfield Breed Livestock, we raise strong, well-bred rams known for their superior genetics and hardiness. Our rams are carefully nurtured in sustainable environments.</p>
+    <a href="#" class="btn btn-primary babi">Read More <i class="fa-solid fa-arrow-right"></i> </a>
+  </div>
+</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card mx-auto mt-5 mb-5" >
+  <img src="g1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Goat</h5>
+    <p class="card-text">At Tunfield Breed Livestock, we raise healthy, well-bred goats known for their resilience and excellent meat quality. Our goats are nurtured in sustainable environments.</p>
+    <a href="#" class="btn btn-primary babi">Read More <i class="fa-solid fa-arrow-right"></i> </a>
+  </div>
+</div>
+			</div>
+		</div>
+
+
+		<div class="row clo mb-5">
+			<div class="col-md-12 ">
+				<h2 class="text-center green mt-3"> How To Establish YourSelf  </h2>
+			</div>
+		</div>
+
+
+
+		<div class="row justify-content-center ">
+			<div class="col-md-4 m-3">
+				<h3 class="text-center green">Farmer</h3>
+				<p class="p-3">
+					To establish yourself as a farmer in Tunfield Breed Livestock, start by learning about livestock farming and focusing on Tunfield’s key breeds. Begin small, and expand as you gain experience. Use available resources like mentorship and farm tools, ensuring proper animal care and sustainable practices. Build your network with other farmers and market your livestock through online platforms and local markets to grow your reputation.
+
+					
+					  
+				</p>
+				
+				<button type="button" class="btn babib  mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+						Sign Up
+					  </button>
+			</div>
+			<div class="col-md-4 m-3">
+				<img src="fa.jpg" alt="" class="img imag" >
+			</div>
+		</div>
+
+
+
+		<div class="row justify-content-center">
+			<div class="col-md-4 m-3">
+				<img src="bu.jpg" alt="" class="img ima">
+			</div>
+			<div class="col-md-4 m-3">
+				<h3 class="text-center green">Buyer</h3>
+				<p class="p-3">
+					To establish yourself as a buyer in Tunfield Breed Livestock, start by researching the available livestock breeds. Connect with trusted suppliers and stay updated on market trends and pricing. Always inspect animals for quality and review health records. Building strong relationships with suppliers ensures consistent access to quality livestock. Reliable connections help you make informed, long-term purchasing decisions.
+
+
+					
+					  
+				</p>
+				<button type="button" class="btn babib mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+						Sign Up
+					  </button>
+			</div>
+		</div>
+
+		<div class="row clo mb-5">
+			<div class="col-md-12 text-center">
+				<h2 class="green mt-4"> Frequently Asked Question </h2>
+			</div>
+		</div>
+
+		<div class="row mx-auto">
+			<div class="col-md-10 mx-auto">
+				<div class="accordion" id="accordionPanelsStayOpenExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header ">
+						<button class="accordion-button ac" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+							How do I establish myself as a farmer at Tunfield Breed Livestock?
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+						<div class="accordion-body">
+							To establish yourself as a farmer, start by learning about our livestock breeds and farming practices. Begin with a small number of animals, use available resources like mentorship and farm management tools, and network with other farmers to build your presence.
+						</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+						<button class="accordion-button collapsed ac" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+							How do I establish myself as a buyer at Tunfield Breed Livestock?
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							To become a buyer, research the livestock breeds we offer, connect with trusted suppliers, and stay informed about market trends. Building strong relationships with suppliers will help you secure quality livestock consistently.
+						</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+						<button class="accordion-button collapsed ac" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+							What types of livestock does Tunfield Breed Livestock offer?
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							We offer a variety of livestock, including cattle, turkeys, rams, and goats, bred for quality, resilience, and optimal performance.
+						</div>
+						</div>
+					</div>
+
+
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+						<button class="accordion-button collapsed ac" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+							Can I inspect livestock before purchasing?
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							Yes, we encourage buyers to inspect the livestock to ensure they meet their quality expectations. Health records and certifications are available upon request.
+						</div>
+						</div>
+					</div>
+
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+						<button class="accordion-button collapsed ac" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+							Does Tunfield Breed Livestock provide delivery services?
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							Yes, we offer delivery services for livestock purchases based on location and availability. Please contact us for more information on delivery options.
+						</div>
+						</div>
+					</div>
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+						<button class="accordion-button collapsed ac" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+							How can I ensure the livestock is healthy?
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapsesix" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							All our livestock are raised in sustainable environments with proper care. Health records and certifications are available for each animal to guarantee quality and health.
+						</div>
+						</div>
+					</div>
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+						<button class="accordion-button collapsed ac" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseseven" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+							How do I contact Tunfield Breed Livestock for inquiries?
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapseseven" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							You can contact us via our website’s contact page, by phone, or by email. Our customer service team is happy to assist with any inquiries.
+						</div>
+						</div>
+					</div>
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+						<button class="accordion-button collapsed ac" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseeight" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+							Do you offer bulk purchasing options or discounts?
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapseeight" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							Yes, we offer bulk purchasing options and discounts for large orders. Contact us to learn more about our pricing packages.
+						</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+						<button class="accordion-button collapsed ac" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsenine" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+							Do you offer guidance for new farmers or livestock buyers?
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapsenine" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							Yes, we provide support for new farmers and buyers through mentorship, farm management tools, and advice on best practices for raising and managing livestock.
+						</div>
+						</div>
+					</div>
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+						<button class="accordion-button collapsed ac" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseten" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+							What payment methods are accepted at Tunfield Breed Livestock?
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapseten" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							We accept multiple payment options, including bank transfers, credit cards, and cash, depending on the transaction.
+						</div>
+						</div>
+					</div>	
+					
+					
+									
+					</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header hed">
+				  <h1 class="modal-title fs-5" id="exampleModalLabel1">Farmers Form</h1>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body bod">
+				  
+
+					<form class="row g-3 needs-validation was-validated" >
+						<div class="col-md-4">
+						  <label for="validationCustom01" class="form-label">First name</label>
+						  <input type="text" class="form-control" id="validationCustom01"  required>
+						  <div class="valid-feedback">
+							Looks good!
+						  </div>
+						</div>
+						<div class="col-md-4">
+						  <label for="validationCustom02" class="form-label">Last name</label>
+						  <input type="text" class="form-control" id="validationCustom02"  required>
+						  <div class="valid-feedback">
+							Looks good!
+						  </div>
+						</div>
+						<div class="col-md-4">
+							<label for="validationCustom02" class="form-label">Email</label>
+							<input type="email" class="form-control" id="validationCustom02"  required>
+							<div class="valid-feedback">
+							  Looks good!
+							</div>
+						  </div>						
+						<div class="col-md-4">
+						  <label for="validationCustom03" class="form-label">City</label>
+						  <input type="text" class="form-control" id="validationCustom03" required>
+						  <div class="invalid-feedback">
+							Please provide a valid city.
+						  </div>
+						</div>
+						<div class="col-md-4">
+						  <label for="validationCustom04" class="form-label">State</label>
+						  <select class="form-select" id="validationCustom04" required>
+							<option selected disabled value="">Choose...</option>
+							<option>...</option>
+						  </select>
+						  <div class="invalid-feedback">
+							Please select a valid state.
+						  </div>
+						</div>
+						<div class="col-md-4">
+						  <label for="validationCustom05" class="form-label">Zip</label>
+						  <input type="text" class="form-control" id="validationCustom05" required>
+						  <div class="invalid-feedback">
+							Please provide a valid zip.
+						  </div>
+						</div>
+						<div class="mb-3">
+							<label for="validationCustom06" class="form-label">CV / Resume</label>
+							<input type="file" class="form-control" id="validationCustom06" aria-label="file example" required>
+							<div class="invalid-feedback">Example invalid form file feedback</div>
+						  </div>
+
+						<div class="col-12">
+						  <div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+							<label class="form-check-label" for="invalidCheck">
+							  Agree to terms and conditions
+							</label>
+							<div class="invalid-feedback">
+							  You must agree before submitting.
+							</div>
+						  </div>
+						</div>
+												
+						<div class="col-12">
+						  <a class="btn babib mt-3" type="submit" href="farmer.html">Submit form</a>
+						</div>
+						
+					  </form>
+
+
+					
+				</div>
+				<div class="modal-footer bom">
+				  <P>By filling this form make sure you agree to our terms and condition</P>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+
+		  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+			<div class="modal-header hed">
+			  <h1 class="modal-title fs-5" id="exampleModalLabel2">Buyers Form</h1>
+			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body bod">
+				<form class="row g-3 needs-validation was-validated" >
+					<div class="col-md-4">
+					  <label for="validationCustom01" class="form-label">First name</label>
+					  <input type="text" class="form-control" id="validationCustom01"  required>
+					  <div class="valid-feedback">
+						Looks good!
+					  </div>
+					</div>
+					<div class="col-md-4">
+					  <label for="validationCustom02" class="form-label">Last name</label>
+					  <input type="text" class="form-control" id="validationCustom02"  required>
+					  <div class="valid-feedback">
+						Looks good!
+					  </div>
+					</div>
+					<div class="col-md-4">
+						<label for="validationCustom02" class="form-label">Email</label>
+						<input type="email" class="form-control" id="validationCustom02"  required>
+						<div class="valid-feedback">
+						  Looks good!
+						</div>
+					  </div>						
+					<div class="col-md-4">
+					  <label for="validationCustom03" class="form-label">City</label>
+					  <input type="text" class="form-control" id="validationCustom03" required>
+					  <div class="invalid-feedback">
+						Please provide a valid city.
+					  </div>
+					</div>
+					<div class="col-md-4">
+					  <label for="validationCustom04" class="form-label">State</label>
+					  <select class="form-select" id="validationCustom04" required>
+						<option selected disabled value="">Choose...</option>
+						<option>...</option>
+					  </select>
+					  <div class="invalid-feedback">
+						Please select a valid state.
+					  </div>
+					</div>
+					<div class="col-md-4">
+					  <label for="validationCustom05" class="form-label">Zip</label>
+					  <input type="text" class="form-control" id="validationCustom05" required>
+					  <div class="invalid-feedback">
+						Please provide a valid zip.
+					  </div>
+					</div>
+
+					<div class="col-12">
+					  <div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+						<label class="form-check-label" for="invalidCheck">
+						  Agree to terms and conditions
+						</label>
+						<div class="invalid-feedback">
+						  You must agree before submitting.
+						</div>
+					  </div>
+					</div>
+											
+					<div class="col-12">
+					  <a class="btn babib mt-3" type="submit" href="buyer.html">Submit form</a>
+					</div>
+					
+				  </form>
+
+			</div>
+			<div class="modal-footer bom ">
+			  <p>By filling this form make sure you agree to our terms and condition</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+
+	  <div class="row colo mt-5">
+		<div class="col-md-12 text-center green">
+			<p class="mt-4">Developed by &copy; shabab 2024</p>
+		</div>
+	  </div>
+
+	</div>
+	
+
+
+	<div >
+		<a href="#up" style="color: #ECFFB0;"> <i class="fa-solid fa-arrow-up-long" style="bottom: 5px; right: 5px; position: fixed; background-color: green; height: 50px; width: 50px; text-align: center; border-radius: 100%; padding-top: 10px;  font-size: 30px;"></i></a>	</div>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
+	
+</body>
+</html>
